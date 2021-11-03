@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Codaí</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <section>
+
+    <div class="container-fluid container-linear">
+<!--ENTALHE DO PERFIL-->
+        <div class="row container-card">
+            <div class="offset-lg-3 col-md-3 col-lg-3 card-col">
+                <div class="card card-perfil">
+                    <div class="img-card-perfil">
+                        <img src="./images/foto de perfil.png" alt="Foto de Rodrigo Mikio" class="card-image mx-auto d-block" title="Foto de Rodrigo Mikio">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="text-center card-title" id="nome-no-html"></h5>
+                        <hr class="hr">
+                        <p class="text-center" id="cargo-no-html"></p>
+<!--BOTÕES DO PERFIL-->
+                        <div class="buttons-card">
+                            <button onclick="cliquenosobremim()" class="btn mr-1" id="btn-sobremim">Sobre Mim</button>
+                            <button onclick="cliquenoprojetos()" class="btn ml-1" id="btn-projetos">Projetos</button>
+                        </div>
+<!--íCONES DO PERFIL-->
+                        <div class="icons-redes-sociais">
+                            <div class="links-redes-sociais mt-2">
+                                <a target="_blank" href="https://www.instagram.com/imikieb/"><i class="fab fa-instagram"></i></a>
+                                <a title="Ainda sem informações."href="#"><i class="fab fa-linkedin"></i></a>
+                                <a target="_blank" href="https://api.whatsapp.com/send?phone=5591981726780&text=Ol%C3%A1%2C%20me%20chamo%20Miki!"><i class="fab fa-whatsapp"></i></a>
+                                <a title="Ainda sem informações." href="#"><i class="fab fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--SOBRE/PROJETOS-->
+            <div class="col-md-6 col-lg-6 text-body">
+                <div class="text" id="infotext-1">
+                    <h1 class="title-text">Sobre Mim</h1>
+                    <h4 class="title-subtitle">Você está visitando o meu currículo!</h4>
+                    <p>
+                        Tenho 21 anos. Nascido em Belém do Pará, onde resido atualmente. Formado em Análise e
+                        Desenvolvimento de Sistemas. Meu hobby é produzir músicas de vários gêneros diferentes, e sou um grande entusiasta
+                        quando o assunto é aprender a desenvolver e programar.
+                    </p>
+                </div>
+                <div class="text" id="infotext-2">
+                    <h1 class="title-text">Meus Projetos</h1>
+                    <h4 class="title-subtitle">Este é meu primeiro projeto!</h4>
+                    <p>
+                        Sim, este é meu primeiro projeto, mas não se preocupe, pois a experiência me fará ter muitos
+                        pela frente. Também espero que você possa presenciá-los de perto.
+                    </p>
+                    <p><a target="_blank" href="https:///www.growdev.com.br">site da growdev <i>(mais informações)</i></a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+
+    <section>
+<!--RODAPÉ-->
+    <footer class="container">
+
+        <div class="row" id="footer-elements">
+            <div class="col-md-3 col-lg-3">
+                <div class="email">
+                    <h4>E-mail</h4>
+                    <p>mikie.business99@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="telefone">
+                    <h4>Telefone</h4>
+                    <p>(91) 98172-6780</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="endereço">
+                    <h4>Endereço</h4>
+                    <p>Av. Brasil, 361, Cabanagem - Belém do Pará.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3">
+                <div class="sigame">
+                    <h4>Siga-me</h4>
+<!--ÍCONES DO RODAPÉ-->
+                    <div class="icons-redes-sociais-sigame">
+                        <div class="links-redes-sociais-sigame mt-2">
+                            <a target="_blank" href="https://www.instagram.com/imikieb/"><i class="fab fa-instagram sigame"></i></a>
+                            <a title="Ainda sem informações." href="#"><i class="fab fa-linkedin sigame"></i></a>
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=5591981726780&text=Ol%C3%A1%2C%20me%20chamo%20Miki!"><i class="fab fa-whatsapp sigame"></i></a>
+                            <a title="Ainda sem informações." href="#"><i class="fab fa-facebook sigame"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--COPYRIGHT DO RODAPÉ-->
+        <div class="row text-center mb-2">
+            <div class="col-lg-12 col-md-12">
+                <small>© 2021 growdev. All rights reserved <a href="https://www.growdev.com.br/">Growdev</a></small>
+            </div>
+        </div>
+
+    </footer>
+    </section>
+<!--JAVASCRIPT-->
+    <script src="./jss/index.js"></script>
+
+</body>
+
+</html>
