@@ -78,6 +78,7 @@ body .text-body
 {
     background-color: white !important;
     box-shadow: 0px 5px 7px #585858;
+    text-align: justify;
 }
 
 body .title-text
